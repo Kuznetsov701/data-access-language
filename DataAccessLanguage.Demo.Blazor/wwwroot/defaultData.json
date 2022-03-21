@@ -1,0 +1,1579 @@
+[
+  {
+    "taskEntity": {
+      "idTaskEntity": "3e9a8303-6543-46c4-9fed-8180b655a570",
+      "beginDate": "2020-12-25T00:00:00",
+      "beginTime": "00:00:00",
+      "endDate": "2020-12-25T00:10:00",
+      "endTime": null,
+      "factBeginDate": null,
+      "factEndDate": null,
+      "taskStatusTypeId": 1,
+      "taskStatusType": {
+        "idTaskStatusType": 1,
+        "name": "Создана"
+      },
+      "taskTypeId": 1,
+      "taskType": {
+        "idTaskType": 1,
+        "name": "Обход абонента сетевой компании",
+        "taskObjectNickname": "tobj_consumer_phys",
+        "timeNorm": 10
+      },
+      "title": "Задание на декабрь 1",
+      "taskObject": null,
+      "timeNorm": 10
+    },
+    "employeeIds": [
+      "3A3A41DB-C4A3-4631-BC4D-BE708C07E333"
+    ],
+    "steps": [
+      {
+        "idTaskStep": "09f9093a-dd9a-44d1-940b-b237fc4bb6de",
+        "isOptional": false,
+        "ordering": 2,
+        "beginDate": "2020-12-25T00:00:00",
+        "endDate": null,
+        "taskEntityId": "3e9a8303-6543-46c4-9fed-8180b655a570",
+        "taskEntity": {
+          "idTaskEntity": "3e9a8303-6543-46c4-9fed-8180b655a570",
+          "beginDate": "2020-12-25T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-25T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "a4d2bfe3-0a0b-43f8-852b-bad0345dd755",
+            "LastName": "Иванов",
+            "FirstName": "Иван",
+            "Regnumber": "954004830",
+            "ObjectName": "954004830:Иванов Иван Иванович",
+            "PriorValue": 310,
+            "SecondName": "Иванович",
+            "CounterCode": "3EBD6130-1355-4E2B-87AA-7D885930D96A",
+            "PointAddress": "ул Титова, д.   40",
+            "CounterNumber": "40004116"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 0,
+        "stepStatusType": {
+          "idStepStatusType": 0,
+          "name": "Черновик"
+        },
+        "taskStepTypeId": 1,
+        "taskStepType": {
+          "idTaskStepType": 1,
+          "name": "Снятие показаний прибора учета",
+          "nickname": "step_countercheck",
+          "timeNorm": 7,
+          "taskStepLogicalTypeId": 1,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 1,
+            "name": "Редактируемый шаг"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+        "employee": {
+          "eMail": null,
+          "login": "ТЕСТОВАЯ_НА",
+          "roles": [],
+          "userName": "Тестовая Наталья Александровна",
+          "lastLogin": null,
+          "idExternal": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 5
+        }
+      },
+      {
+        "idTaskStep": "20076edb-c8a6-4206-bdbf-c8d9f51c34a3",
+        "isOptional": false,
+        "ordering": 3,
+        "beginDate": "2020-12-25T00:00:00",
+        "endDate": null,
+        "taskEntityId": "3e9a8303-6543-46c4-9fed-8180b655a570",
+        "taskEntity": {
+          "idTaskEntity": "3e9a8303-6543-46c4-9fed-8180b655a570",
+          "beginDate": "2020-12-25T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-25T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "a4d2bfe3-0a0b-43f8-852b-bad0345dd755",
+            "LastName": "Иванов",
+            "FirstName": "Иван",
+            "Regnumber": "954004830",
+            "ObjectName": "954004830:Иванов Иван Иванович",
+            "PriorValue": 310,
+            "SecondName": "Иванович",
+            "CounterCode": "3EBD6130-1355-4E2B-87AA-7D885930D96A",
+            "PointAddress": "ул Титова, д.   40",
+            "CounterNumber": "40004116"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 0,
+        "stepStatusType": {
+          "idStepStatusType": 0,
+          "name": "Черновик"
+        },
+        "taskStepTypeId": 2,
+        "taskStepType": {
+          "idTaskStepType": 2,
+          "name": "Получить фото прибора учета",
+          "nickname": "step_counterphoto",
+          "timeNorm": 5,
+          "taskStepLogicalTypeId": 1,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 1,
+            "name": "Редактируемый шаг"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+        "employee": {
+          "eMail": null,
+          "login": "ТЕСТОВАЯ_НА",
+          "roles": [],
+          "userName": "Тестовая Наталья Александровна",
+          "lastLogin": null,
+          "idExternal": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 5
+        }
+      },
+      {
+        "idTaskStep": "8ff0f184-89d9-4fad-806e-79945dd74b59",
+        "isOptional": false,
+        "ordering": 1,
+        "beginDate": "2020-12-25T00:00:00",
+        "endDate": null,
+        "taskEntityId": "3e9a8303-6543-46c4-9fed-8180b655a570",
+        "taskEntity": {
+          "idTaskEntity": "3e9a8303-6543-46c4-9fed-8180b655a570",
+          "beginDate": "2020-12-25T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-25T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "a4d2bfe3-0a0b-43f8-852b-bad0345dd755",
+            "LastName": "Иванов",
+            "FirstName": "Иван",
+            "Regnumber": "954004830",
+            "ObjectName": "954004830:Иванов Иван Иванович",
+            "PriorValue": 310,
+            "SecondName": "Иванович",
+            "CounterCode": "3EBD6130-1355-4E2B-87AA-7D885930D96A",
+            "PointAddress": "ул Титова, д.   40",
+            "CounterNumber": "40004116"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 0,
+        "stepStatusType": {
+          "idStepStatusType": 0,
+          "name": "Черновик"
+        },
+        "taskStepTypeId": 6,
+        "taskStepType": {
+          "idTaskStepType": 6,
+          "name": "Карточка информации об абоненте",
+          "nickname": "step_info_consumer_phys",
+          "timeNorm": null,
+          "taskStepLogicalTypeId": 2,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 2,
+            "name": "Информационная карточка"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+        "employee": {
+          "eMail": null,
+          "login": "ТЕСТОВАЯ_НА",
+          "roles": [],
+          "userName": "Тестовая Наталья Александровна",
+          "lastLogin": null,
+          "idExternal": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 5
+        }
+      }
+    ]
+  },
+  {
+    "taskEntity": {
+      "idTaskEntity": "cf084a94-a768-4991-bc66-f93ec8a04352",
+      "beginDate": "2020-12-28T00:00:00",
+      "beginTime": "00:00:00",
+      "endDate": "2020-12-28T00:10:00",
+      "endTime": null,
+      "factBeginDate": null,
+      "factEndDate": null,
+      "taskStatusTypeId": 1,
+      "taskStatusType": {
+        "idTaskStatusType": 1,
+        "name": "Создана"
+      },
+      "taskTypeId": 1,
+      "taskType": {
+        "idTaskType": 1,
+        "name": "Обход абонента сетевой компании",
+        "taskObjectNickname": "tobj_consumer_phys",
+        "timeNorm": 10
+      },
+      "title": "Задание на декабрь 1",
+      "taskObject": null,
+      "timeNorm": 10
+    },
+    "employeeIds": [
+      "74E6F546-5818-4245-83C1-374F2F9E8B21"
+    ],
+    "steps": [
+      {
+        "idTaskStep": "7805a7d8-49a7-4335-9162-51ed5e2658aa",
+        "isOptional": false,
+        "ordering": 2,
+        "beginDate": "2020-12-28T00:00:00",
+        "endDate": null,
+        "taskEntityId": "cf084a94-a768-4991-bc66-f93ec8a04352",
+        "taskEntity": {
+          "idTaskEntity": "cf084a94-a768-4991-bc66-f93ec8a04352",
+          "beginDate": "2020-12-28T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-28T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "ffe15c58-5326-4745-8d88-712bedf66f51",
+            "LastName": "Николаева",
+            "FirstName": "Светлана",
+            "Regnumber": "954011788",
+            "ObjectName": "954011788:Николаева Светлана Николаевна",
+            "PriorValue": 900,
+            "SecondName": "Николаевна",
+            "CounterCode": "A69CC902-556F-4095-A1BC-B778D474B356",
+            "PointAddress": "ул Тимирязева, д.  157,    1",
+            "CounterNumber": "39868934"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 1,
+        "taskStepType": {
+          "idTaskStepType": 1,
+          "name": "Снятие показаний прибора учета",
+          "nickname": "step_countercheck",
+          "timeNorm": 7,
+          "taskStepLogicalTypeId": 1,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 1,
+            "name": "Редактируемый шаг"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "74E6F546-5818-4245-83C1-374F2F9E8B21",
+        "employee": {
+          "eMail": null,
+          "login": "Алексеев_ЮА",
+          "roles": [],
+          "userName": "Алексеев Иван Алексеевич",
+          "lastLogin": null,
+          "idExternal": "74E6F546-5818-4245-83C1-374F2F9E8B21",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 17
+        }
+      },
+      {
+        "idTaskStep": "a20c453e-40fc-45ac-b716-2a81b888a78c",
+        "isOptional": false,
+        "ordering": 3,
+        "beginDate": "2020-12-28T00:00:00",
+        "endDate": null,
+        "taskEntityId": "cf084a94-a768-4991-bc66-f93ec8a04352",
+        "taskEntity": {
+          "idTaskEntity": "cf084a94-a768-4991-bc66-f93ec8a04352",
+          "beginDate": "2020-12-28T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-28T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "ffe15c58-5326-4745-8d88-712bedf66f51",
+            "LastName": "Николаева",
+            "FirstName": "Светлана",
+            "Regnumber": "954011788",
+            "ObjectName": "954011788:Николаева Светлана Николаевна",
+            "PriorValue": 900,
+            "SecondName": "Николаевна",
+            "CounterCode": "A69CC902-556F-4095-A1BC-B778D474B356",
+            "PointAddress": "ул Тимирязева, д.  157,    1",
+            "CounterNumber": "39868934"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 2,
+        "taskStepType": {
+          "idTaskStepType": 2,
+          "name": "Получить фото прибора учета",
+          "nickname": "step_counterphoto",
+          "timeNorm": 5,
+          "taskStepLogicalTypeId": 1,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 1,
+            "name": "Редактируемый шаг"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "74E6F546-5818-4245-83C1-374F2F9E8B21",
+        "employee": {
+          "eMail": null,
+          "login": "Алексеев_ЮА",
+          "roles": [],
+          "userName": "Алексеев Иван Алексеевич",
+          "lastLogin": null,
+          "idExternal": "74E6F546-5818-4245-83C1-374F2F9E8B21",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 17
+        }
+      },
+      {
+        "idTaskStep": "ec9bd55b-8912-4fb4-b7b0-d6007678c487",
+        "isOptional": false,
+        "ordering": 1,
+        "beginDate": "2020-12-28T00:00:00",
+        "endDate": null,
+        "taskEntityId": "cf084a94-a768-4991-bc66-f93ec8a04352",
+        "taskEntity": {
+          "idTaskEntity": "cf084a94-a768-4991-bc66-f93ec8a04352",
+          "beginDate": "2020-12-28T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-28T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "ffe15c58-5326-4745-8d88-712bedf66f51",
+            "LastName": "Николаева",
+            "FirstName": "Светлана",
+            "Regnumber": "954011788",
+            "ObjectName": "954011788:Николаева Светлана Николаевна",
+            "PriorValue": 900,
+            "SecondName": "Николаевна",
+            "CounterCode": "A69CC902-556F-4095-A1BC-B778D474B356",
+            "PointAddress": "ул Тимирязева, д.  157,    1",
+            "CounterNumber": "39868934"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 6,
+        "taskStepType": {
+          "idTaskStepType": 6,
+          "name": "Карточка информации об абоненте",
+          "nickname": "step_info_consumer_phys",
+          "timeNorm": null,
+          "taskStepLogicalTypeId": 2,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 2,
+            "name": "Информационная карточка"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "74E6F546-5818-4245-83C1-374F2F9E8B21",
+        "employee": {
+          "eMail": null,
+          "login": "Алексеев_ЮА",
+          "roles": [],
+          "userName": "Алексеев Иван Алексеевич",
+          "lastLogin": null,
+          "idExternal": "74E6F546-5818-4245-83C1-374F2F9E8B21",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 17
+        }
+      }
+    ]
+  },
+  {
+    "taskEntity": {
+      "idTaskEntity": "2b4f9375-219e-487d-ae3a-c7ae344eeb3e",
+      "beginDate": "2020-12-29T00:00:00",
+      "beginTime": "00:00:00",
+      "endDate": "2020-12-29T00:10:00",
+      "endTime": null,
+      "factBeginDate": null,
+      "factEndDate": null,
+      "taskStatusTypeId": 1,
+      "taskStatusType": {
+        "idTaskStatusType": 1,
+        "name": "Создана"
+      },
+      "taskTypeId": 1,
+      "taskType": {
+        "idTaskType": 1,
+        "name": "Обход абонента сетевой компании",
+        "taskObjectNickname": "tobj_consumer_phys",
+        "timeNorm": 10
+      },
+      "title": "Задание на декабрь 1",
+      "taskObject": null,
+      "timeNorm": 10
+    },
+    "employeeIds": [
+      "74E6F546-5818-4245-83C1-374F2F9E8B21"
+    ],
+    "steps": [
+      {
+        "idTaskStep": "50c0d93c-0e10-4199-8dfd-33baa4454568",
+        "isOptional": false,
+        "ordering": 2,
+        "beginDate": "2020-12-29T00:00:00",
+        "endDate": null,
+        "taskEntityId": "2b4f9375-219e-487d-ae3a-c7ae344eeb3e",
+        "taskEntity": {
+          "idTaskEntity": "2b4f9375-219e-487d-ae3a-c7ae344eeb3e",
+          "beginDate": "2020-12-29T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-29T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "4a49e29d-d0fc-49a8-9bbb-e211e2142329",
+            "LastName": "Александров",
+            "FirstName": "Александр",
+            "Regnumber": "4901419802",
+            "ObjectName": "4901419802:Александров Александр Алексеевич",
+            "PriorValue": 9457,
+            "SecondName": "Алексеевич",
+            "CounterCode": "5B1D2C14-285A-4BAB-98C5-C1EDADDD6D4E",
+            "PointAddress": "ул Приречная, д.   71/А",
+            "CounterNumber": "34003275"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 1,
+        "taskStepType": {
+          "idTaskStepType": 1,
+          "name": "Снятие показаний прибора учета",
+          "nickname": "step_countercheck",
+          "timeNorm": 7,
+          "taskStepLogicalTypeId": 1,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 1,
+            "name": "Редактируемый шаг"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "74E6F546-5818-4245-83C1-374F2F9E8B21",
+        "employee": {
+          "eMail": null,
+          "login": "Алексеев_ЮА",
+          "roles": [],
+          "userName": "Алексеев Иван Алексеевич",
+          "lastLogin": null,
+          "idExternal": "74E6F546-5818-4245-83C1-374F2F9E8B21",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 17
+        }
+      },
+      {
+        "idTaskStep": "d07158e1-0347-49a3-8d73-50fb20c9b298",
+        "isOptional": false,
+        "ordering": 1,
+        "beginDate": "2020-12-29T00:00:00",
+        "endDate": null,
+        "taskEntityId": "2b4f9375-219e-487d-ae3a-c7ae344eeb3e",
+        "taskEntity": {
+          "idTaskEntity": "2b4f9375-219e-487d-ae3a-c7ae344eeb3e",
+          "beginDate": "2020-12-29T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-29T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "4a49e29d-d0fc-49a8-9bbb-e211e2142329",
+            "LastName": "Александров",
+            "FirstName": "Александр",
+            "Regnumber": "4901419802",
+            "ObjectName": "4901419802:Александров Александр Алексеевич",
+            "PriorValue": 9457,
+            "SecondName": "Алексеевич",
+            "CounterCode": "5B1D2C14-285A-4BAB-98C5-C1EDADDD6D4E",
+            "PointAddress": "ул Приречная, д.   71/А",
+            "CounterNumber": "34003275"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 6,
+        "taskStepType": {
+          "idTaskStepType": 6,
+          "name": "Карточка информации об абоненте",
+          "nickname": "step_info_consumer_phys",
+          "timeNorm": null,
+          "taskStepLogicalTypeId": 2,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 2,
+            "name": "Информационная карточка"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "74E6F546-5818-4245-83C1-374F2F9E8B21",
+        "employee": {
+          "eMail": null,
+          "login": "Алексеев_ЮА",
+          "roles": [],
+          "userName": "Алексеев Иван Алексеевич",
+          "lastLogin": null,
+          "idExternal": "74E6F546-5818-4245-83C1-374F2F9E8B21",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 17
+        }
+      },
+      {
+        "idTaskStep": "e6fac15c-0520-4cd9-8055-196563c314ca",
+        "isOptional": false,
+        "ordering": 3,
+        "beginDate": "2020-12-29T00:00:00",
+        "endDate": null,
+        "taskEntityId": "2b4f9375-219e-487d-ae3a-c7ae344eeb3e",
+        "taskEntity": {
+          "idTaskEntity": "2b4f9375-219e-487d-ae3a-c7ae344eeb3e",
+          "beginDate": "2020-12-29T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-29T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "4a49e29d-d0fc-49a8-9bbb-e211e2142329",
+            "LastName": "Александрови",
+            "FirstName": "Александр",
+            "Regnumber": "4901419802",
+            "ObjectName": "4901419802:Александров Александр Алексеевич",
+            "PriorValue": 9457,
+            "SecondName": "Алексеевич",
+            "CounterCode": "5B1D2C14-285A-4BAB-98C5-C1EDADDD6D4E",
+            "PointAddress": "ул Приречная, д.   71/А",
+            "CounterNumber": "34003275"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 2,
+        "taskStepType": {
+          "idTaskStepType": 2,
+          "name": "Получить фото прибора учета",
+          "nickname": "step_counterphoto",
+          "timeNorm": 5,
+          "taskStepLogicalTypeId": 1,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 1,
+            "name": "Редактируемый шаг"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "74E6F546-5818-4245-83C1-374F2F9E8B21",
+        "employee": {
+          "eMail": null,
+          "login": "Алексеев_ЮА",
+          "roles": [],
+          "userName": "Алексеев Иван Алексеевич",
+          "lastLogin": null,
+          "idExternal": "74E6F546-5818-4245-83C1-374F2F9E8B21",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 17
+        }
+      }
+    ]
+  },
+  {
+    "taskEntity": {
+      "idTaskEntity": "96615882-3600-49fd-9a9a-2e2d25551445",
+      "beginDate": "2020-12-26T00:00:00",
+      "beginTime": "00:00:00",
+      "endDate": "2020-12-26T00:10:00",
+      "endTime": null,
+      "factBeginDate": null,
+      "factEndDate": null,
+      "taskStatusTypeId": 1,
+      "taskStatusType": {
+        "idTaskStatusType": 1,
+        "name": "Создана"
+      },
+      "taskTypeId": 1,
+      "taskType": {
+        "idTaskType": 1,
+        "name": "Обход абонента сетевой компании",
+        "taskObjectNickname": "tobj_consumer_phys",
+        "timeNorm": 10
+      },
+      "title": "Задание на декабрь 1",
+      "taskObject": null,
+      "timeNorm": 10
+    },
+    "employeeIds": [
+      "3A3A41DB-C4A3-4631-BC4D-BE708C07E333"
+    ],
+    "steps": [
+      {
+        "idTaskStep": "3e275611-57d6-4208-bb5f-68021a152d25",
+        "isOptional": false,
+        "ordering": 1,
+        "beginDate": "2020-12-26T00:00:00",
+        "endDate": null,
+        "taskEntityId": "96615882-3600-49fd-9a9a-2e2d25551445",
+        "taskEntity": {
+          "idTaskEntity": "96615882-3600-49fd-9a9a-2e2d25551445",
+          "beginDate": "2020-12-26T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-26T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "3980df6b-9de1-4fd0-b998-3127e2489e83",
+            "LastName": "Федоров",
+            "FirstName": "Николай",
+            "Regnumber": "957000977",
+            "ObjectName": "957000977:Федоров Николай Федорович",
+            "PriorValue": 33945,
+            "SecondName": "Федорович",
+            "CounterCode": "FA6F3FCF-E6E0-4BC2-8D5D-23A5346E4A9F",
+            "PointAddress": "ул Толстого, д.   23",
+            "CounterNumber": "61117"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 6,
+        "taskStepType": {
+          "idTaskStepType": 6,
+          "name": "Карточка информации об абоненте",
+          "nickname": "step_info_consumer_phys",
+          "timeNorm": null,
+          "taskStepLogicalTypeId": 2,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 2,
+            "name": "Информационная карточка"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+        "employee": {
+          "eMail": null,
+          "login": "ТЕСТОВАЯ_НА",
+          "roles": [],
+          "userName": "Тестовая Наталья Александровна",
+          "lastLogin": null,
+          "idExternal": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 5
+        }
+      },
+      {
+        "idTaskStep": "54bd34dc-8826-4fa1-b807-1b9c09fa8359",
+        "isOptional": false,
+        "ordering": 2,
+        "beginDate": "2020-12-26T00:00:00",
+        "endDate": null,
+        "taskEntityId": "96615882-3600-49fd-9a9a-2e2d25551445",
+        "taskEntity": {
+          "idTaskEntity": "96615882-3600-49fd-9a9a-2e2d25551445",
+          "beginDate": "2020-12-26T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-26T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "3980df6b-9de1-4fd0-b998-3127e2489e83",
+            "LastName": "Федоров",
+            "FirstName": "Николай",
+            "Regnumber": "957000977",
+            "ObjectName": "957000977:Федоров Николай Федорович",
+            "PriorValue": 33945,
+            "SecondName": "Федорович",
+            "CounterCode": "FA6F3FCF-E6E0-4BC2-8D5D-23A5346E4A9F",
+            "PointAddress": "ул Толстого, д.   23",
+            "CounterNumber": "61117"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 1,
+        "taskStepType": {
+          "idTaskStepType": 1,
+          "name": "Снятие показаний прибора учета",
+          "nickname": "step_countercheck",
+          "timeNorm": 7,
+          "taskStepLogicalTypeId": 1,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 1,
+            "name": "Редактируемый шаг"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+        "employee": {
+          "eMail": null,
+          "login": "ТЕСТОВАЯ_НА",
+          "roles": [],
+          "userName": "Тестовая Наталья Александровна",
+          "lastLogin": null,
+          "idExternal": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 5
+        }
+      },
+      {
+        "idTaskStep": "e413be6b-19ca-4483-90a9-1e938eb2a557",
+        "isOptional": false,
+        "ordering": 3,
+        "beginDate": "2020-12-26T00:00:00",
+        "endDate": null,
+        "taskEntityId": "96615882-3600-49fd-9a9a-2e2d25551445",
+        "taskEntity": {
+          "idTaskEntity": "96615882-3600-49fd-9a9a-2e2d25551445",
+          "beginDate": "2020-12-26T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-26T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "3980df6b-9de1-4fd0-b998-3127e2489e83",
+            "LastName": "Федоров",
+            "FirstName": "Николай",
+            "Regnumber": "957000977",
+            "ObjectName": "957000977:Федоров Николай Федорович",
+            "PriorValue": 33945,
+            "SecondName": "Федорович",
+            "CounterCode": "FA6F3FCF-E6E0-4BC2-8D5D-23A5346E4A9F",
+            "PointAddress": "ул Толстого, д.   23",
+            "CounterNumber": "61117"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 2,
+        "taskStepType": {
+          "idTaskStepType": 2,
+          "name": "Получить фото прибора учета",
+          "nickname": "step_counterphoto",
+          "timeNorm": 5,
+          "taskStepLogicalTypeId": 1,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 1,
+            "name": "Редактируемый шаг"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+        "employee": {
+          "eMail": null,
+          "login": "ТЕСТОВАЯ_НА",
+          "roles": [],
+          "userName": "Тестовая Наталья Александровна",
+          "lastLogin": null,
+          "idExternal": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 5
+        }
+      }
+    ]
+  },
+  {
+    "taskEntity": {
+      "idTaskEntity": "1f7d4390-2dc7-42b0-a4b4-a1c274cad48e",
+      "beginDate": "2020-12-27T00:00:00",
+      "beginTime": "00:00:00",
+      "endDate": "2020-12-27T00:10:00",
+      "endTime": null,
+      "factBeginDate": null,
+      "factEndDate": null,
+      "taskStatusTypeId": 1,
+      "taskStatusType": {
+        "idTaskStatusType": 1,
+        "name": "Создана"
+      },
+      "taskTypeId": 1,
+      "taskType": {
+        "idTaskType": 1,
+        "name": "Обход абонента сетевой компании",
+        "taskObjectNickname": "tobj_consumer_phys",
+        "timeNorm": 10
+      },
+      "title": "Задание на декабрь 1",
+      "taskObject": null,
+      "timeNorm": 10
+    },
+    "employeeIds": [
+      "3A3A41DB-C4A3-4631-BC4D-BE708C07E333"
+    ],
+    "steps": [
+      {
+        "idTaskStep": "61420f84-3b92-46c7-b318-c0aa3e03245f",
+        "isOptional": false,
+        "ordering": 2,
+        "beginDate": "2020-12-27T00:00:00",
+        "endDate": null,
+        "taskEntityId": "1f7d4390-2dc7-42b0-a4b4-a1c274cad48e",
+        "taskEntity": {
+          "idTaskEntity": "1f7d4390-2dc7-42b0-a4b4-a1c274cad48e",
+          "beginDate": "2020-12-27T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-27T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "3cdff9e0-70aa-4117-91c7-4e379ac1db0e",
+            "LastName": "Сергеев",
+            "FirstName": "Сергей",
+            "Regnumber": "954008601",
+            "ObjectName": "954008601:Сергеев Сергей Федорович",
+            "PriorValue": 11637,
+            "SecondName": "Федорович",
+            "CounterCode": "F4B8EF08-DC81-4FDF-A872-F967E7A51C29",
+            "PointAddress": "ул Красноармейская, д.   41",
+            "CounterNumber": "03233248"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 1,
+        "taskStepType": {
+          "idTaskStepType": 1,
+          "name": "Снятие показаний прибора учета",
+          "nickname": "step_countercheck",
+          "timeNorm": 7,
+          "taskStepLogicalTypeId": 1,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 1,
+            "name": "Редактируемый шаг"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+        "employee": {
+          "eMail": null,
+          "login": "ТЕСТОВАЯ_НА",
+          "roles": [],
+          "userName": "Тестовая Наталья Александровна",
+          "lastLogin": null,
+          "idExternal": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 5
+        }
+      },
+      {
+        "idTaskStep": "684dc778-48da-488d-b290-06711512185e",
+        "isOptional": false,
+        "ordering": 2,
+        "beginDate": "2020-12-27T00:00:00",
+        "endDate": null,
+        "taskEntityId": "1f7d4390-2dc7-42b0-a4b4-a1c274cad48e",
+        "taskEntity": {
+          "idTaskEntity": "1f7d4390-2dc7-42b0-a4b4-a1c274cad48e",
+          "beginDate": "2020-12-27T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-27T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "3cdff9e0-70aa-4117-91c7-4e379ac1db0e",
+            "LastName": "Сергеев",
+            "FirstName": "Сергей",
+            "Regnumber": "954008601",
+            "ObjectName": "954008601:Сергеев Сергей Федорович",
+            "PriorValue": 11637,
+            "SecondName": "Федорович",
+            "CounterCode": "F4B8EF08-DC81-4FDF-A872-F967E7A51C29",
+            "PointAddress": "ул Красноармейская, д.   41",
+            "CounterNumber": "03233248"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 1,
+        "taskStepType": {
+          "idTaskStepType": 1,
+          "name": "Снятие показаний прибора учета",
+          "nickname": "step_countercheck",
+          "timeNorm": 7,
+          "taskStepLogicalTypeId": 1,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 1,
+            "name": "Редактируемый шаг"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+        "employee": {
+          "eMail": null,
+          "login": "ТЕСТОВАЯ_НА",
+          "roles": [],
+          "userName": "Тестовая Наталья Александровна",
+          "lastLogin": null,
+          "idExternal": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 5
+        }
+      },
+      {
+        "idTaskStep": "97a84e7b-b1b4-4b84-b862-a8829a1b9ee7",
+        "isOptional": false,
+        "ordering": 3,
+        "beginDate": "2020-12-27T00:00:00",
+        "endDate": null,
+        "taskEntityId": "1f7d4390-2dc7-42b0-a4b4-a1c274cad48e",
+        "taskEntity": {
+          "idTaskEntity": "1f7d4390-2dc7-42b0-a4b4-a1c274cad48e",
+          "beginDate": "2020-12-27T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-27T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "3cdff9e0-70aa-4117-91c7-4e379ac1db0e",
+            "LastName": "Сергеев",
+            "FirstName": "Сергей",
+            "Regnumber": "954008601",
+            "ObjectName": "954008601:Сергеев Сергей Федорович",
+            "PriorValue": 11637,
+            "SecondName": "Федорович",
+            "CounterCode": "F4B8EF08-DC81-4FDF-A872-F967E7A51C29",
+            "PointAddress": "ул Красноармейская, д.   41",
+            "CounterNumber": "03233248"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 2,
+        "taskStepType": {
+          "idTaskStepType": 2,
+          "name": "Получить фото прибора учета",
+          "nickname": "step_counterphoto",
+          "timeNorm": 5,
+          "taskStepLogicalTypeId": 1,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 1,
+            "name": "Редактируемый шаг"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+        "employee": {
+          "eMail": null,
+          "login": "ТЕСТОВАЯ_НА",
+          "roles": [],
+          "userName": "Тестовая Наталья Александровна",
+          "lastLogin": null,
+          "idExternal": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 5
+        }
+      },
+      {
+        "idTaskStep": "b4259454-c940-4d94-9c1a-40fa7f464149",
+        "isOptional": false,
+        "ordering": 1,
+        "beginDate": "2020-12-27T00:00:00",
+        "endDate": null,
+        "taskEntityId": "1f7d4390-2dc7-42b0-a4b4-a1c274cad48e",
+        "taskEntity": {
+          "idTaskEntity": "1f7d4390-2dc7-42b0-a4b4-a1c274cad48e",
+          "beginDate": "2020-12-27T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-27T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "3cdff9e0-70aa-4117-91c7-4e379ac1db0e",
+            "LastName": "Сергеев",
+            "FirstName": "Сергей",
+            "Regnumber": "954008601",
+            "ObjectName": "954008601:Сергеев Сергей Федорович",
+            "PriorValue": 11637,
+            "SecondName": "Федорович",
+            "CounterCode": "F4B8EF08-DC81-4FDF-A872-F967E7A51C29",
+            "PointAddress": "ул Красноармейская, д.   41",
+            "CounterNumber": "03233248"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 6,
+        "taskStepType": {
+          "idTaskStepType": 6,
+          "name": "Карточка информации об абоненте",
+          "nickname": "step_info_consumer_phys",
+          "timeNorm": null,
+          "taskStepLogicalTypeId": 2,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 2,
+            "name": "Информационная карточка"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+        "employee": {
+          "eMail": null,
+          "login": "ТЕСТОВАЯ_НА",
+          "roles": [],
+          "userName": "Тестовая Наталья Александровна",
+          "lastLogin": null,
+          "idExternal": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 5
+        }
+      },
+      {
+        "idTaskStep": "bc1c626d-c13f-4d8e-a827-98c01868d0af",
+        "isOptional": false,
+        "ordering": 3,
+        "beginDate": "2020-12-27T00:00:00",
+        "endDate": null,
+        "taskEntityId": "1f7d4390-2dc7-42b0-a4b4-a1c274cad48e",
+        "taskEntity": {
+          "idTaskEntity": "1f7d4390-2dc7-42b0-a4b4-a1c274cad48e",
+          "beginDate": "2020-12-27T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-27T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "3cdff9e0-70aa-4117-91c7-4e379ac1db0e",
+            "LastName": "Сергеев",
+            "FirstName": "Сергей",
+            "Regnumber": "954008601",
+            "ObjectName": "954008601:Сергеев Сергей Федорович",
+            "PriorValue": 11637,
+            "SecondName": "Федорович",
+            "CounterCode": "F4B8EF08-DC81-4FDF-A872-F967E7A51C29",
+            "PointAddress": "ул Красноармейская, д.   41",
+            "CounterNumber": "03233248"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 2,
+        "taskStepType": {
+          "idTaskStepType": 2,
+          "name": "Получить фото прибора учета",
+          "nickname": "step_counterphoto",
+          "timeNorm": 5,
+          "taskStepLogicalTypeId": 1,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 1,
+            "name": "Редактируемый шаг"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+        "employee": {
+          "eMail": null,
+          "login": "ТЕСТОВАЯ_НА",
+          "roles": [],
+          "userName": "Тестовая Наталья Александровна",
+          "lastLogin": null,
+          "idExternal": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 5
+        }
+      },
+      {
+        "idTaskStep": "c71ef91a-e948-4fe5-8891-7468d745624b",
+        "isOptional": false,
+        "ordering": 1,
+        "beginDate": "2020-12-27T00:00:00",
+        "endDate": null,
+        "taskEntityId": "1f7d4390-2dc7-42b0-a4b4-a1c274cad48e",
+        "taskEntity": {
+          "idTaskEntity": "1f7d4390-2dc7-42b0-a4b4-a1c274cad48e",
+          "beginDate": "2020-12-27T00:00:00",
+          "beginTime": "00:00:00",
+          "endDate": "2020-12-27T00:10:00",
+          "endTime": null,
+          "factBeginDate": null,
+          "factEndDate": null,
+          "taskStatusTypeId": 1,
+          "taskStatusType": {
+            "idTaskStatusType": 1,
+            "name": "Создана"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          },
+          "title": "Задание на декабрь 1",
+          "taskObject": {
+            "Id": "3cdff9e0-70aa-4117-91c7-4e379ac1db0e",
+            "LastName": "Сергеев",
+            "FirstName": "Сергей",
+            "Regnumber": "954008601",
+            "ObjectName": "954008601:Сергеев Сергей Федорович",
+            "PriorValue": 11637,
+            "SecondName": "Федорович",
+            "CounterCode": "F4B8EF08-DC81-4FDF-A872-F967E7A51C29",
+            "PointAddress": "ул Красноармейская, д.   41",
+            "CounterNumber": "03233248"
+          },
+          "timeNorm": 10
+        },
+        "stepStatusTypeId": 1,
+        "stepStatusType": {
+          "idStepStatusType": 1,
+          "name": "Запланирован"
+        },
+        "taskStepTypeId": 6,
+        "taskStepType": {
+          "idTaskStepType": 6,
+          "name": "Карточка информации об абоненте",
+          "nickname": "step_info_consumer_phys",
+          "timeNorm": null,
+          "taskStepLogicalTypeId": 2,
+          "taskStepLogicalType": {
+            "idTaskStepLogicalType": 2,
+            "name": "Информационная карточка"
+          },
+          "taskTypeId": 1,
+          "taskType": {
+            "idTaskType": 1,
+            "name": "Обход абонента сетевой компании",
+            "taskObjectNickname": "tobj_consumer_phys",
+            "timeNorm": 10
+          }
+        },
+        "employeeId": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+        "employee": {
+          "eMail": null,
+          "login": "ТЕСТОВАЯ_НА",
+          "roles": [],
+          "userName": "Тестовая Наталья Александровна",
+          "lastLogin": null,
+          "idExternal": "3A3A41DB-C4A3-4631-BC4D-BE708C07E333",
+          "isArchived": false,
+          "recoveryKey": null,
+          "idUserAccount": 5
+        }
+      }
+    ]
+  }
+]

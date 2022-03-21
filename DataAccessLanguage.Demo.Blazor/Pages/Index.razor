@@ -1,0 +1,78 @@
+﻿@page "/"
+@using System.Diagnostics
+@inject IExpressionFactory expressionFactory
+@inject HttpClient httpClient
+@inject NavigationManager navigationManager
+
+<div class="row">
+    <div class="col-6">
+        <Code Title="Запрос" @bind-Value=@StringExpression class="col-12" style="height: 400px; border: 1px solid #aaaa" />
+    </div>
+    <div class="col-6">
+        <Code Title="Данные" Language="json" @bind-Value=@Json class="col-12" style="height: 400px; border: 1px solid #aaaa" />
+        <label style="color:orangered">@Errors</label>
+    </div>
+</div>
+<div class="row">
+    <button class="btn btn-dark" @onclick="x => Calculate()">Вычислить</button>
+    <div class="col-12">
+        <div style="color:red">@Milliseconds</div>
+        <pre>@(ExpressionResult ?? ExpressionResult)</pre>
+    </div>
+</div>
+
+@code{
+    public string Json { get; set; }
+    public string StringExpression { get; set; }
+    public string ExpressionResult { get; set; }
+    public string Errors { get; set; }
+    public long Milliseconds { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Json = await httpClient.GetStringAsync(navigationManager.BaseUri + "defaultData.json");
+        StringExpression = await httpClient.GetStringAsync(navigationManager.BaseUri + "defaultExpression.txt");
+        Calculate();
+    }
+
+    private async void Calculate()
+    {
+        try
+        {
+            object obj = null;
+
+            JsonSerializerOptions serializerOptions = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                Encoder = JavaScriptEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Cyrillic)
+            };
+            serializerOptions.Converters.Add(new JsonToObjectConverter());
+
+            if (Json.StartsWith('{'))
+                obj = JsonSerializer.Deserialize<object>(Json, serializerOptions);
+            else
+                obj = JsonSerializer.Deserialize<IEnumerable<object>>(Json, serializerOptions);
+
+            IExpression expression = expressionFactory.Create(StringExpression);
+
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+
+            object res = await expression.GetValueAsync(obj);
+            Milliseconds = stopwatch.ElapsedTicks;
+            stopwatch.Stop();
+
+            ExpressionResult = JsonSerializer.Serialize(res, new JsonSerializerOptions  {
+                WriteIndented = true,
+                Encoder = JavaScriptEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Cyrillic) });
+
+            Errors = null;
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            Errors = ex.ToString();
+            StateHasChanged();
+        }
+    }
+}
