@@ -7,12 +7,12 @@
     <PackageId>DataAccessLanguage</PackageId>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <PackageReleaseNotes>in</PackageReleaseNotes>
-    <Version>2.0.20</Version>
+    <Version>2.0.21</Version>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
     <Company>Dev N</Company>
     <Authors>Dev N</Authors>
-    <FileVersion>2.0.20</FileVersion>
-    <AssemblyVersion>2.0.20</AssemblyVersion>
+    <FileVersion>2.0.21</FileVersion>
+    <AssemblyVersion>2.0.21</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>

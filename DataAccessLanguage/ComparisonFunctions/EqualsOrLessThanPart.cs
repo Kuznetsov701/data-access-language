@@ -1,11 +1,13 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace DataAccessLanguage
 {
     public class EqualsOrLessThanPart : IExpressionPart
     {
-        IExpression parameterExpression;
+        private static int[] trueValue = { -1, 0 };
+        private readonly IExpression parameterExpression;
 
         public ExpressionType Type => ExpressionType.Function;
 
@@ -16,7 +18,7 @@ namespace DataAccessLanguage
 
         public object GetValue(object obj)
         {
-            string parameter = parameterExpression.GetValue(obj)?.ToString();
+            object parameter = parameterExpression.GetValue(obj);
             return GetResult(obj, parameter);
         }
 
@@ -25,18 +27,17 @@ namespace DataAccessLanguage
 
         public async Task<object> GetValueAsync(object obj)
         {
-            string parameter = (await parameterExpression.GetValueAsync(obj))?.ToString();
+            object parameter = await parameterExpression.GetValueAsync(obj);
             return GetResult(obj, parameter);
         }
 
-        public bool? GetResult(object obj, string parameter) =>
-           obj switch
+        public bool? GetResult(object obj, object parameter) =>
+           (obj, parameter) switch
            {
-               not null when decimal.TryParse(obj.ToString(), out decimal a) && decimal.TryParse(parameter, out decimal b) => a <= b,
-               DateTime a when DateTime.TryParse(parameter, out DateTime b) => a <= b,
-               TimeSpan a when TimeSpan.TryParse(parameter, out TimeSpan b) => a <= b,
-               not null when DateTime.TryParse(obj.ToString(), out DateTime a) && DateTime.TryParse(parameter, out DateTime b) => a <= b,
-               not null when TimeSpan.TryParse(obj.ToString(), out TimeSpan a) && TimeSpan.TryParse(parameter, out TimeSpan b) => a <= b,
+               (IComparable a, IComparable b) when a.GetType() == b.GetType() => trueValue.Contains(a.CompareTo(b)),
+               (not null, not null) when decimal.TryParse(obj.ToString(), out decimal a) && decimal.TryParse(parameter.ToString(), out decimal b) => a <= b,
+               (not null, not null) when DateTime.TryParse(obj.ToString(), out DateTime a) && DateTime.TryParse(parameter.ToString(), out DateTime b) => a <= b,
+               (not null, not null) when TimeSpan.TryParse(obj.ToString(), out TimeSpan a) && TimeSpan.TryParse(parameter.ToString(), out TimeSpan b) => a <= b,
                _ => null
            };
 

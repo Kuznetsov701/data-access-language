@@ -5,7 +5,7 @@ namespace DataAccessLanguage
 {
     public class NotEqualsPart : IExpressionPart
     {
-        private IExpression parameterExpression;
+        private readonly IExpression parameterExpression;
         public ExpressionType Type => ExpressionType.Function;
 
         public NotEqualsPart(IExpressionFactory expressionFactory, string parameter)

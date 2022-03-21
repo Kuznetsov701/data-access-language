@@ -1,5 +1,6 @@
 ﻿@page "/"
 @using System.Diagnostics
+@using System.Web
 @inject IExpressionFactory expressionFactory
 @inject HttpClient httpClient
 @inject NavigationManager navigationManager
@@ -14,14 +15,23 @@
     </div>
 </div>
 <div class="row">
-    <button class="btn btn-dark" @onclick="x => Calculate()">Вычислить</button>
     <div class="col-12">
-        <div style="color:red">@Milliseconds</div>
-        <pre>@(ExpressionResult ?? ExpressionResult)</pre>
+        <button class="btn btn-dark" @onclick="x => Calculate()">Вычислить</button>
+        <button class="btn btn-link" @onclick="x => CreateLink()">Создать ссылку</button>
+        @if(Link != null)
+        {
+            <input class="form-control" style="width:100%;margin-left:0;margin-top:5px;" disabled value=@Link/>
+        }
+        @*<div style="color:red">@Milliseconds</div>*@
+        <textarea class="form-control" style="width:100%;height: 400px;margin-left:0;margin-top:5px;">@(ExpressionResult ?? ExpressionResult)</textarea>
     </div>
 </div>
 
 @code{
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "params")]
+    public string UrlParameters { get; set; }
+    public string Link { get; set; }
     public string Json { get; set; }
     public string StringExpression { get; set; }
     public string ExpressionResult { get; set; }
@@ -30,9 +40,23 @@
 
     protected override async Task OnInitializedAsync()
     {
-        Json = await httpClient.GetStringAsync(navigationManager.BaseUri + "defaultData.json");
-        StringExpression = await httpClient.GetStringAsync(navigationManager.BaseUri + "defaultExpression.txt");
+        if (string.IsNullOrWhiteSpace(UrlParameters))
+        {
+            Json = await httpClient.GetStringAsync(navigationManager.BaseUri + "defaultData.json");
+            StringExpression = await httpClient.GetStringAsync(navigationManager.BaseUri + "defaultExpression.txt");
+        }
+        else
+        {
+            var p = JsonSerializer.Deserialize<EditorParameters>(HttpUtility.UrlDecode(UrlParameters));
+            Json = p.Data;
+            StringExpression = p.Expression;
+        }
         Calculate();
+    }
+
+    private void CreateLink()
+    {
+        Link = navigationManager.BaseUri.Trim('/') + "?params=" + HttpUtility.UrlEncode(JsonSerializer.Serialize(new EditorParameters { Data = Json, Expression = StringExpression }));
     }
 
     private async void Calculate()
@@ -48,7 +72,9 @@
             };
             serializerOptions.Converters.Add(new JsonToObjectConverter());
 
-            if (Json.StartsWith('{'))
+            if (string.IsNullOrWhiteSpace(Json))
+                obj = null;
+            else if (Json.StartsWith('{'))
                 obj = JsonSerializer.Deserialize<object>(Json, serializerOptions);
             else
                 obj = JsonSerializer.Deserialize<IEnumerable<object>>(Json, serializerOptions);
@@ -74,5 +100,11 @@
             Errors = ex.ToString();
             StateHasChanged();
         }
+    }
+
+    protected class EditorParameters
+    {
+        public string Expression { get; set; }
+        public string Data { get; set; }
     }
 }

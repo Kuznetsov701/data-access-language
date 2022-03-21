@@ -5,7 +5,7 @@ namespace DataAccessLanguage
 {
     public class EqualsPart : IExpressionPart
     {
-        private IExpression parameterExpression;
+        private readonly IExpression parameterExpression;
         public ExpressionType Type => ExpressionType.Function;
 
         public EqualsPart(IExpressionFactory expressionFactory, string parameter)
